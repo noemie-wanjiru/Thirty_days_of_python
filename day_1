@@ -1,0 +1,13 @@
+import math 
+print("Enter a")
+a=input()
+a=int(a)
+print("Enter b")
+b=input()
+b=int(b)
+print("Enter c")
+c=input()
+c=int(c)
+x1=((0-b)+math.sqrt(pow(b,2)-4*a*c))/(2*a)
+x2=((0-b)-math.sqrt(pow(b,2)-4*a*c))/(2*a)
+print(x1,x2)
